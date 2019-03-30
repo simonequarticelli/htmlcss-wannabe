@@ -69,7 +69,7 @@ img{
 
 
 /* SMARTPHONE */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 568px) {
   #lezioni .row > .left, #lezioni .row > .right{
     width: 100%;
     margin-bottom: 15px;
@@ -103,6 +103,7 @@ img{
   }
   img{
     margin: 10px 0px;
+    height: 150px;
   }
   #why .row img {
     padding:5px;
@@ -114,5 +115,30 @@ img{
   }
   hr{
     display: none;
+  }
+}
+
+
+
+/* TABLET */
+
+@media screen and (min-width: 570px) and (max-width:1080px) {
+  hr{
+    width: 95%;
+    margin:0 auto;
+    margin-top: 30px;
+  }
+  .row{
+    margin-top:0;
+  }
+  h1{
+    text-transform: uppercase;
+    margin: 30px 0px;
+  }
+  [background="grey"] {
+    background-color: white;
+  }
+  #why .row > .first, #why .row > .second, #why .row > .third {
+    margin-top: 20px;
   }
 }
