@@ -81,7 +81,8 @@ img{
     background-color: #fff;
     padding:5px;
   }
-  [background="grey"] {
+  #lezioni,
+  #why {
     background-color: white;
   }
   .row {
